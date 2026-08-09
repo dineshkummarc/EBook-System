@@ -1,0 +1,11 @@
+# Block direct execution of PHP files in uploads
+<Files "*.php">
+    Deny from all
+</Files>
+<Files "*.php5">
+    Deny from all
+</Files>
+<FilesMatch "\.(php|php5|phtml)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
