@@ -1,5 +1,4 @@
 # EBook System Application
-
 A dynamic eBook management web application designed to browse and manage electronic books.
 
 ## 🚀 Features
